@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fitness-tools"
+version = "0.1.0"
+description = ""
+authors = ["Lloyd Shanks <lloyd@esntl.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+pint = "^0.23"
+numpy = "^1.26.4"
+lxml = "^5.2.2"
+python-dateutil = "^2.9.0.post0"
+scipy = "^1.13.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
